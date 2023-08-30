@@ -1,0 +1,13 @@
+.topPortion {  
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+
+}
+
+@media screen and (min-width: 440px) {
+  .topPortion {
+    flex-wrap: nowrap !important;
+  }
+}

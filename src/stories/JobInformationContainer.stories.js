@@ -1,7 +1,7 @@
-import JobInformationContainer from "../components/JobInformationContainer";
+import JobInformationCardContainer from "../components/JobInformationCardContainer";
 
 export default {
-  component: JobInformationContainer,
+  component: JobInformationCardContainer,
 }
 
 export const Primary = {

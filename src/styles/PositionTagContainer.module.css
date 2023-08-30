@@ -1,6 +1,10 @@
 .positionTagContainer {
-  order: 3;
-
   margin-left: auto;
   padding-left: 10px;
+}
+
+@media screen and (min-width: 440px) {
+  .positionTagContainer {
+    order: 3
+  }
 }

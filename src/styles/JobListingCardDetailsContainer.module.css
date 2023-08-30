@@ -1,6 +1,12 @@
 .jobListingCardDetailsContainer {
-  padding-left: 55px;
-
+  /* just added need to test */
+  box-sizing: border-box;
   width: 100%;
   margin-bottom: auto;
+}
+
+@media screen and (min-width: 440px) {
+  .jobListingCardDetailsContainer {
+    padding-left: 55px;
+  }
 }

@@ -1,0 +1,12 @@
+.JobInformationCardContainer {
+  flex-basis: 100%;
+  margin-top: 5px;
+  flex-shrink: 1;
+}
+
+@media screen and (min-width: 440px) {
+  .JobInformationCardContainer {
+    flex-basis: auto !important;
+    margin-top: 0 !important;  
+  }
+}

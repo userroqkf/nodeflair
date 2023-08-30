@@ -1,14 +1,15 @@
 .jobListingBottom {
   width: 100%;
-  /* bottom: 0; */
+  bottom: 0;
   padding: 0 15px;
   overflow: hidden;
-  /* position: absolute; */
+  position: absolute;
   min-height: 40px;
   white-space: nowrap;
   text-overflow: ellipsis;
   background-color: #ffffff;
   border-bottom-left-radius: 8px;
   border-bottom-right-radius: 8px;
-
+  /* testing */
+  box-sizing: border-box;
 }

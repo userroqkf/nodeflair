@@ -1,0 +1,11 @@
+.jobListingCardContainer {
+  width: 100%;
+  flex-shrink: 0;
+  padding-top: 5px;
+}
+
+@media screen and (min-width: 1010px) {
+  .jobListingCardContainer {
+    width: 427px;
+  }
+}

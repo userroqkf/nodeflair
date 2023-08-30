@@ -1,0 +1,19 @@
+.jobListingTopContainer {
+  height: 100%;
+  display: flex;
+  padding: 20px;
+  position: relative;
+  min-height: 100%;
+  flex-direction: column;
+  background-color: white;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.jobListingTopContainer::after {
+  content: " ";
+  display: block;
+  margin-top: 10px;
+  border-bottom: 1px solid #dfdfdf;
+  margin-bottom: -15px;
+}
