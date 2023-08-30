@@ -1,0 +1,12 @@
+.companyIconContainer {
+  width: max-content;
+  height: max-content;
+  margin: 0 10px 0 0;
+}
+
+.compnayIcon {
+  float: left;
+  width: 45px;
+  height: 45px;
+  border-radius: 4px;
+}

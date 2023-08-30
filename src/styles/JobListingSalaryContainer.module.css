@@ -1,0 +1,10 @@
+.jobListingSalaryContainer {
+  margin-bottom: 2px;
+  font-weight: 600;
+  white-space: pre-wrap;
+}
+
+.salaryRange {
+  padding-top: 3px;
+  margin-right: 5px;
+}
