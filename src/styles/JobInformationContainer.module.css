@@ -1,9 +1,14 @@
 .jobInformationContainer {
-  flex-basis: 100%;
-  margin-top: 5px;
-  flex-shrink: 1;
-  
-  flex-basis: auto !important;
-  margin-top: 0 !important;
+  top: 10px;
+  display: none;
+  padding: 10px 5px;
+  position: sticky;
+  flex-grow: 1;
+  min-width: 0;
+}
 
+@media screen and (min-width: 1010px) {
+  .jobInformationContainer {
+      display: block;
+  }
 }
