@@ -3,5 +3,5 @@ export default function CompanyRating({rating}) {
     <span>
       {rating} &#9733;
     </span>
-  )
+  );
 }

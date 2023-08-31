@@ -2,11 +2,11 @@ import TimePostedLocationContainer from "../components/TimePostedLocationContain
 
 export default {
   component: TimePostedLocationContainer,
-}
+};
 
 export const Primary = {
   args: {
     timeAgo: "10 minutes ago",
     location: "United States"
   }
-}
+};

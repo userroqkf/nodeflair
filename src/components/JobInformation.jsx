@@ -1,4 +1,4 @@
-import styles from "../styles/JobInformation.module.css"
+import styles from "../styles/JobInformation.module.css";
 
 export default function JobInformation({jobTitle}) {
   return (
@@ -7,5 +7,5 @@ export default function JobInformation({jobTitle}) {
         <h1> {jobTitle} </h1>
       </div>
     </div>
-  )
+  );
 }

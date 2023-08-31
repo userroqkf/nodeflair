@@ -1,7 +1,7 @@
 import CompnayIcon from "./CompnayIcon";
 import JobInformationCardContainer from "./JobInformationCardContainer";
 import PositionTagContainer from "./PositionTagContainer";
-import styles from "../styles/TopPortion.module.css"
+import styles from "../styles/TopPortion.module.css";
 
 export default function TopPortion({compnayIconURL, companyName, positionName, companyRating, jobTitle}) {
   return (
@@ -10,5 +10,5 @@ export default function TopPortion({compnayIconURL, companyName, positionName, c
       <PositionTagContainer positionName={positionName}/>
       <JobInformationCardContainer companyName={companyName} companyRating={companyRating} jobTitle={jobTitle}/>
     </div>
-  )
+  );
 }

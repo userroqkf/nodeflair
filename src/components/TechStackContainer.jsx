@@ -5,5 +5,5 @@ export default function TechStackContainer({techStack}) {
     <span className={styles.techStackContainer}>
       {techStack}
     </span>
-  )
+  );
 }

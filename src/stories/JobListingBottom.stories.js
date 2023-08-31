@@ -1,13 +1,13 @@
-import JobListingBottom from "../components/JobListingBottom"
+import JobListingBottom from "../components/JobListingBottom";
 
 export default {
   component: JobListingBottom,
-}
+};
 
-const techStackListExample = ["Rest API", "API", "play", "Modular", "Node.js"]
+const techStackListExample = ["Rest API", "API", "play", "Modular", "Node.js"];
 
 export const Primary = {
   args: {
     techStackList: techStackListExample
   }
-}
+};
