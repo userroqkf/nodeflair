@@ -2,7 +2,7 @@ import TopPortion from "../components/TopPortion";
 
 export default {
   component: TopPortion,
-}
+};
 
 export const Primary = {
   args: {
@@ -12,4 +12,4 @@ export const Primary = {
     companyRating: "3.6",
     jobTitle: "Full Stack Engineer"
   }
-}
+};

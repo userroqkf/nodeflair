@@ -1,5 +1,5 @@
 import CompanyRating from "./CompanyRating";
-import styles from "../styles/CompanyNameAndRating.module.css"
+import styles from "../styles/CompanyNameAndRating.module.css";
 
 export default function CompanyNameAndRating({companyName, companyRating}) {
   return (
@@ -7,5 +7,5 @@ export default function CompanyNameAndRating({companyName, companyRating}) {
       <span>{companyName}</span>
       <CompanyRating rating={companyRating}/>
     </div>
-  )
+  );
 }

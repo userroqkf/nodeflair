@@ -1,6 +1,6 @@
 import JobListingCardDetailsContainer from "./JobListingCardDetailsContainer";
 import TopPortion from "./TopPortion";
-import styles from "../styles/jobListingTopContainer.module.css"
+import styles from "../styles/jobListingTopContainer.module.css";
 
 export default function JobListingTopContainer({compnayIconURL, companyRating, companyName, positionName, jobTitle, timeAgo, location, salaryRange}) {
   return (
@@ -19,5 +19,5 @@ export default function JobListingTopContainer({compnayIconURL, companyRating, c
       />
     </div>
 
-  )
+  );
 }

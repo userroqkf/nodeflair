@@ -2,7 +2,7 @@ import JobListingTopContainer from "../components/JobListingTopContainer";
 
 export default {
   component: JobListingTopContainer,
-}
+};
 
 export const Primary = {
   args: {
@@ -15,4 +15,4 @@ export const Primary = {
     location: "Singapore",
     salaryRange: "S$6,140 - S$11,960 / mth"
   }
-}
+};

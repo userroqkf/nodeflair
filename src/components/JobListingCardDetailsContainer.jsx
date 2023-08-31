@@ -1,6 +1,6 @@
 import JobListingSalaryContainer from "./JobListingSalaryContainer";
 import TimePostedLocationContainer from "./TimePostedLocationContainer";
-import styles from "../styles/JobListingCardDetailsContainer.module.css"
+import styles from "../styles/JobListingCardDetailsContainer.module.css";
 
 export default function JobListingCardDetailsContainer({timeAgo, location, salaryRange}) {
   return (
@@ -8,5 +8,5 @@ export default function JobListingCardDetailsContainer({timeAgo, location, salar
       <TimePostedLocationContainer timeAgo={timeAgo} location={location}/>
       <JobListingSalaryContainer salaryRange={salaryRange}/>
     </div>
-  )
+  );
 }

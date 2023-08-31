@@ -1,7 +1,7 @@
-import JobListingCard from "./JobListingCard"
-import styles from "../styles/JobListingCardContainer.module.css"
+import JobListingCard from "./JobListingCard";
+import styles from "../styles/JobListingCardContainer.module.css";
 
-export default function JobListingCardContainer({jobListingList}) {
+export default function JobListingCardContainer({jobListingList, focus, setFocus}) {
   return (
     <div className={styles.jobListingCardContainer}>
       {jobListingList.map((jobListing, index) => {
@@ -9,6 +9,9 @@ export default function JobListingCardContainer({jobListingList}) {
         return (
           <JobListingCard
             key={index}
+            id={index}
+            setFocus={setFocus}
+            selected={focus === index}
             compnayIconURL={compnayIconURL}
             companyRating={companyRating}
             companyName={companyName}
@@ -19,8 +22,8 @@ export default function JobListingCardContainer({jobListingList}) {
             salaryRange={salaryRange}
             techStackList={techStackList}
           />
-        )
+        );
       })}
     </div>
-  )
+  );
 }

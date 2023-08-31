@@ -2,7 +2,7 @@ import JobListingCardDetailsContainer from "../components/JobListingCardDetailsC
 
 export default {
   component: JobListingCardDetailsContainer,
-}
+};
 
 export const Primary = {
   args: {
@@ -10,4 +10,4 @@ export const Primary = {
     location: "Singapore",
     salaryRange: "S$6,140 - S$11,960 / mth"
   }
-}
+};

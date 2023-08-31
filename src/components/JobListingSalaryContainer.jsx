@@ -1,5 +1,5 @@
 import EstimateSalaryTag from "./EstimateSalaryTag";
-import styles from "../styles/JobListingSalaryContainer.module.css"
+import styles from "../styles/JobListingSalaryContainer.module.css";
 
 export default function JobListingSalaryContainer({salaryRange}) {
   return (
@@ -9,5 +9,5 @@ export default function JobListingSalaryContainer({salaryRange}) {
       </span>
       <EstimateSalaryTag />
     </div>
-  )
+  );
 }

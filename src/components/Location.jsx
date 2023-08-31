@@ -1,6 +1,6 @@
-import styles from "../styles/Location.module.css"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faLocationDot } from "@fortawesome/free-solid-svg-icons"
+import styles from "../styles/Location.module.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
 
 export default function Location({location}) {
   return (
@@ -10,5 +10,5 @@ export default function Location({location}) {
         {location}
       </span>
     </div>
-  ) 
+  ); 
 };

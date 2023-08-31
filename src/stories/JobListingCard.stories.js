@@ -2,9 +2,9 @@ import JobListingCard from "../components/JobListingCard";
 
 export default {
   component: JobListingCard,
-}
+};
 
-const techStackListExample = ["Rest API", "API", "play", "Modular", "Node.js"]
+const techStackListExample = ["Rest API", "API", "play", "Modular", "Node.js"];
 
 export const Primary = {
   args: {
@@ -19,4 +19,4 @@ export const Primary = {
     techStackList: techStackListExample
 
   }
-}
+};

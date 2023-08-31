@@ -2,7 +2,7 @@ import JobInformationCardContainer from "../components/JobInformationCardContain
 
 export default {
   component: JobInformationCardContainer,
-}
+};
 
 export const Primary = {
   args: {
@@ -10,4 +10,4 @@ export const Primary = {
     companyRating: "5.0",
     jobTitle: "Software Engineer Intern"
   }
-}
+};
