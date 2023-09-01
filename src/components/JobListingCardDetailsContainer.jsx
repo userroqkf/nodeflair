@@ -6,7 +6,7 @@ export default function JobListingCardDetailsContainer({timeAgo, location, salar
   return (
     <div className={styles.jobListingCardDetailsContainer}>
       <TimePostedLocationContainer timeAgo={timeAgo} location={location}/>
-      <JobListingSalaryContainer salaryRange={salaryRange}/>
+      {salaryRange && <JobListingSalaryContainer salaryRange={salaryRange}/>}
     </div>
   );
 }
